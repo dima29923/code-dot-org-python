@@ -13,6 +13,20 @@ artist = codestudio.load('s1level30')
 
 artist.color = 'green'
 artist.right(90)
-# ???
+artist.move_forward(100)
+artist.turn_right(90)
+artist.move_forward(100)
+artist.turn_right(90)
+artist.move_forward(100)
+artist.turn_right(90)
+artist.move_forward(100)
+artist.turn_left(90)
+artist.move_forward(150)
+artist.turn_left(90)
+artist.move_forward(100)
+artist.turn_left(90)
+artist.move_forward(100)
+artist.turn_left(90)
+artist.move_forward(100)
 
 artist.check()
